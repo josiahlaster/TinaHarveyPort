@@ -1,0 +1,67 @@
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-content {
+  width: 100%;
+  padding: 15px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+.contact-info span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 15px;
+  transition: color 0.3s ease;
+}
+
+.nav button:hover {
+  color: #d4af37;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

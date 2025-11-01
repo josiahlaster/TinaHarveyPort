@@ -1,0 +1,135 @@
+.experience {
+  background-color: #f8f9fa;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #d4af37;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.timeline-item.left {
+  justify-content: flex-start;
+}
+
+.timeline-item.right {
+  justify-content: flex-end;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #d4af37;
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 0 3px #d4af37;
+  z-index: 10;
+}
+
+.timeline-date {
+  position: absolute;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  background-color: #d4af37;
+  padding: 8px 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+.timeline-item.left .timeline-date {
+  left: 50%;
+  margin-left: 40px;
+}
+
+.timeline-item.right .timeline-date {
+  right: 50%;
+  margin-right: 40px;
+}
+
+.timeline-content {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 3px 15px rgba(212, 175, 55, 0.2);
+  width: 45%;
+  border: 2px solid #d4af37;
+}
+
+.timeline-item.left .timeline-content {
+  margin-right: auto;
+}
+
+.timeline-item.right .timeline-content {
+  margin-left: auto;
+}
+
+.timeline-content h3 {
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.company {
+  font-weight: 600;
+  color: #d4af37;
+  margin-bottom: 1rem;
+}
+
+.responsibilities {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.responsibilities li {
+  margin-bottom: 8px;
+  color: #555555;
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 30px;
+  }
+
+  .timeline-item {
+    justify-content: flex-end !important;
+  }
+
+  .timeline-marker {
+    left: 30px;
+    transform: translateX(-50%);
+  }
+
+  .timeline-date {
+    display: none;
+  }
+
+  .timeline-content {
+    width: calc(100% - 80px);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}

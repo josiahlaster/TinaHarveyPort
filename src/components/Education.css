@@ -1,0 +1,64 @@
+.education {
+  background-color: #ffffff;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  width: 100%;
+}
+
+.education-card {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.degree-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.education-card h3 {
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.field {
+  color: #d4af37;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.institution {
+  color: #555555;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.year {
+  color: #666666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.honors {
+  color: #28a745;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}
