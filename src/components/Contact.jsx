@@ -34,7 +34,7 @@ function Contact() {
             <span className="icon"></span>
             <div>
               <strong>Email</strong>
-              <p>contact@portfolio.com</p>
+              <p>info@tinamarieharvey.com</p>
             </div>
           </div>
           <div className="info-item">

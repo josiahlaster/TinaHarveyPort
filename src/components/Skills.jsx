@@ -24,7 +24,7 @@ function Skills() {
     },
     {
       title: "Professional Skills",
-      icon: "🎯",
+      icon: "🧠",
       skills: [
         "Problem Solving & Critical Thinking",
         "Negotiation & Conflict Resolution",
