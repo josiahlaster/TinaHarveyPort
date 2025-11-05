@@ -48,8 +48,7 @@ function Contact() {
             <span className="icon"></span>
             <div>
               <strong>Location</strong>
-              <p>Raleigh-Durham, NC
-y</p>
+              <p>Raleigh-Durham, NC</p>
             </div>
           </div>
           <blockquote className="contact-quote">
