@@ -3,11 +3,18 @@ import './Education.css'
 function Education() {
   const education = [
     {
+      degree: "Certificate",
+      field: "Nonprofit Management",
+      institution: "North Carolina Central University",
+      year: "2025 - 2026",
+      honors: "Graduate"
+    },
+    {
       degree: "Master's",
-      field: "Public Administration",
+      field: "Public Administration Executive Track",
       institution: "North Carolina Central University",
       year: "2024 - 2025",
-      honors: "Graduated with Honors"
+      honors: "Summa Cum Laude"
     },
     {
       degree: "Bachelor's",
@@ -18,7 +25,7 @@ function Education() {
     },
     {
       degree: "Associate's",
-      field: "Early Education",
+      field: "Early Childhood Education",
       institution: "University of Mount Olive",
       year: "2007 - 2010",
       honors: "Cum Laude"

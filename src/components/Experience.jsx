@@ -2,15 +2,26 @@ import './Experience.css'
 
 function Experience() {
   const experiences = [
+        {
+      title: "Paralegal",
+      company: "Satterfield Law, PLLC | Hillsborough, NC",
+      period: "2022 – 2025",
+      description: [
+        "Draft, review, and revise contracts, pleadings, discovery responses, and transactional legal documents; manage e-filing in state and federal courts while ensuring compliance with procedural rules and litigation deadlines.",
+        "Conduct advanced legal research utilizing LexisNexis, prepare discovery requests and responses, coordinate document production, and support arbitration and mediation preparation, including exhibits, case summaries, and settlement documentation.",
+        "Manage case lifecycle administration using MyCase and legal document management systems, including calendaring, deadline tracking, document organization, and maintaining confidential client and litigation records.",
+        "Serve as primary client liaison, coordinating communications, intake, and case updates while tracking billable hours, managing invoices, and supporting hourly billing and matter management."
+      ]
+    },
     {
       title: "Program Administrator",
       company: "Transformative Justice Youth Program | Cary, NC",
       period: "2022 - Present",
       description: [
-        "Implement all project initiatives in accordance with the bylaws and policies of the Board of Directors that define the purpose of nonprofit management.",
-        "Analyze strengths, gaps, and efficiencies of the organization, balancing its health with its programmatic needs and functions.mplemented innovative solutions resulting in 30% efficiency improvement",
-        "Develop policies for personnel management, financial operations, fundraising activities, and client service delivery.",
-        "Promote collaboration between community-based organizations and local government agencies in order to broaden public engagement."
+        "Administer diversion and transitional programming for justice-involved juveniles, coordinating peer support, vocational rehabilitation, independent living services, and compliance with court directives and community-based alternatives to adjudication.",
+        "Provide litigation and case support across juvenile matters, including case documentation review, court coordination, compliance monitoring, and stakeholder communication with attorneys, families, and government agencies.",
+        "Oversee financial management operations, encompassing budgeting, fundraising initiatives, grant writing, fund allocation, and financial oversight to ensure program sustainability, accountability, and service delivery.",
+        "Develop and enforce policies and operational controls governing service eligibility, program expansion, data protection, and risk management while facilitating housing placements, success coaching, mentoring programs, and social justice advocacy for justice-involved youth."
       ]
     },
     {
