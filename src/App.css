@@ -112,6 +112,14 @@ blockquote {
   background-color: #1e7e34;
 }
 
+.btn-linkedin {
+  background-color: #0077B5;
+}
+
+.btn-linkedin:hover {
+  background-color: #005885;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   section {

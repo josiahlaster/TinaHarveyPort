@@ -1,5 +1,6 @@
 import './Hero.css'
 import headshot from '../assets/headshot2.png'
+import resumePdf from '../assets/Resume.pdf'
 
 function Hero() {
   return (
@@ -27,7 +28,8 @@ crisis stabilization, school-based alternative suspension, and youth independent
           </blockquote>
           <div className="hero-actions">
             <a href="#contact" className="btn">Get In Touch</a>
-            <a href="/resume.pdf" download className="btn btn-secondary">Download Resume</a>
+            <a href={resumePdf} download className="btn btn-secondary">Download Resume</a>
+            <a href="https://www.linkedin.com/in/tina-marie-harvey-91480b318/" target="_blank" rel="noopener noreferrer" className="btn btn-linkedin">LinkedIn</a>
           </div>
         </div>
       </div>
