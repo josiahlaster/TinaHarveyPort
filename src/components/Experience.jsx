@@ -2,6 +2,17 @@ import './Experience.css'
 
 function Experience() {
   const experiences = [
+            {
+      title: "Account Manager",
+      company: "Durham Technical Community College | Durham, NC",
+      period: "2025 – Present",
+      description: [
+        "Administer Veteran’s Administration, state, federal, and third-party funding programs, including authorization review, invoicing, eligibility verification, and regulatory compliance while ensuring accurate application of funding to student financial records.",
+        "Perform complex financial reconciliation and analytical review of grants, sponsorships, financial aid disbursements, refunds, and collections to support month-end and year-end close, identify discrepancies, and ensure audit readiness.",
+        "Develop and implement Standard Operating Procedures (SOPs), internal controls, and process documentation for grant administration, sponsorship billing, compliance tracking, and financial operations to strengthen governance and operational efficiency.",
+        "Conduct advanced accounts receivable analysis, monitor outstanding balances, support reporting and audit requests, and collaborate with Financial Aid, external agencies, and institutional leadership to resolve discrepancies, mitigate risk, and ensure regulatory compliance."
+      ]
+    },
         {
       title: "Paralegal",
       company: "Satterfield Law, PLLC | Hillsborough, NC",

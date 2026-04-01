@@ -35,7 +35,7 @@ function Education() {
 
   return (
     <section id="education" className="education">
-      <h2>Education</h2>
+      <h2>College Education</h2>
       <div className="education-grid">
         {education.map((edu, index) => (
           <div key={index} className="education-card">

@@ -1,4 +1,5 @@
 import './Hero.css'
+import headshot from '../assets/headshot2.png'
 
 function Hero() {
   return (
@@ -6,7 +7,7 @@ function Hero() {
       <div className="hero-content">
         <div className="hero-image">
           <div className="profile-photo">
-            <span className="photo-placeholder">👤</span>
+            <img src={headshot} alt="Tina Harvey" />
           </div>
         </div>
         <div className="hero-text">
