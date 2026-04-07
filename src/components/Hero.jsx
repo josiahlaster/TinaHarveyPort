@@ -12,16 +12,10 @@ function Hero() {
           </div>
         </div>
         <div className="hero-text">
-          <h1>TINA HARVEY </h1>
+          <h1>TINA MARIE HARVEY </h1>
           <h3>COMPLIANCE AND LEGAL ANALYST</h3>
           <p className="bio">
-           Dedicated to social justice, diversity, and inclusion, Tina Harvey brings over three decades of
-impactful experience in the healthcare sector. With a conceptual consciousness, she
-advocates for consumers with impartiality and integrity, transcending barriers of race, creed,
-class, gender, and color. Tina excels in cultivating public awareness and effectively navigating
-resources to provide reliable and comprehensive services to at-risk populations, including
-those seeking refuge from homelessness, criminal justice reintegration, family reunification,
-crisis stabilization, school-based alternative suspension, and youth independent living.
+           Multidisciplinary professional with experience spanning legal support, accounting operations, quality assurance, policy development, organizational branding, workforce development and recruitment strategy, healthcare coordination, insurance operations, grant development, and nonprofit management. Demonstrates strong operational leadership and regulatory knowledge across public, private, and nonprofit sectors, with the ability to align legal, financial, and programmatic functions to enhance organizational performance, strengthen compliance, and support sustainable, mission-driven growth.
           </p>
           <blockquote>
             "Success is not final, failure is not fatal: it is the courage to continue that counts."

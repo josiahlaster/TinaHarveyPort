@@ -14,7 +14,7 @@ function Experience() {
       ]
     },
         {
-      title: "Paralegal",
+      title: "Senior Paralegal",
       company: "Satterfield Law, PLLC | Hillsborough, NC",
       period: "2022 – 2025",
       description: [
