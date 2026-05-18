@@ -10,7 +10,6 @@ const projects = [
     description:
       'Transitions Legacy Center is a community-focused nonprofit dedicated to empowering individuals and families through supportive services, programming, and resources that foster lasting positive change. Tina contributed expertise in compliance, policy development, and nonprofit management to help strengthen organizational operations and mission delivery.',
     accentColor: '#4e8c6e',
-    icon: '🌿',
   },
   {
     id: 2,
@@ -21,18 +20,16 @@ const projects = [
     description:
       'Taskforce Legal Solutions provides accessible, professional consulting services to individuals and organizations navigating complex legal landscapes. Tina\'s background in legal analysis, regulatory compliance, and document preparation was instrumental in shaping efficient and client-centered service delivery.',
     accentColor: '#1a3a5c',
-    icon: '⚖️',
   },
   {
     id: 3,
-    name: 'Ebony Angels',
+    name: 'Transformitive Youth',
     url: 'https://ebonyangels.org/',
     domain: 'Ebony Angels',
-    category: 'Nonprofit | Health & Wellness',
+    category: 'Nonprofit | Youth Reform ',
     description:
       'Ebony Angels is a nonprofit organization committed to uplifting women and families through health equity advocacy, community outreach, and holistic wellness programs. Tina applied her skills in grant development, healthcare coordination, and organizational branding to amplify the organization\'s impact and community reach.',
     accentColor: '#6b2d8b',
-    icon: '🌸',
   },
 ]
 
