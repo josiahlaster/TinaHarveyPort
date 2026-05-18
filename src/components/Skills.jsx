@@ -13,7 +13,6 @@ function Skills() {
     },
     {
       title: "Public Relations",
-      icon: "⚙️",
       skills: [
         "Strategic Planning",
         "Talent Acquisition",
@@ -23,7 +22,6 @@ function Skills() {
     },
     {
       title: "Professional Skills",
-      icon: "🧠",
       skills: [
         "Problem Solving & Critical Thinking",
         "Negotiation & Conflict Resolution",
