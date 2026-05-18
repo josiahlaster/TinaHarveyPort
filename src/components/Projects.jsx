@@ -11,7 +11,7 @@ const projects = [
     domain: 'Transitions Legacy Center',
     category: 'Community Services',
     description:
-      'Transitions Legacy Center is a community-focused nonprofit dedicated to empowering individuals and families through supportive services, programming, and resources that foster lasting positive change. Tina contributed expertise in compliance, policy development, and nonprofit management to help strengthen organizational operations and mission delivery.',
+      'A curated selection of organizations and initiatives supported through strategic leadership, legal compliance, nonprofit administration, operational development, and community-centered service.',
     accentColor: '#4e8c6e',
     icon: tlcIcon,
   },
@@ -22,7 +22,7 @@ const projects = [
     domain: 'Taskforce Legal Solutions',
     category: 'Legal Services',
     description:
-      'Taskforce Legal Solutions provides accessible, professional consulting services to individuals and organizations navigating complex legal landscapes. Tina\'s background in legal analysis, regulatory compliance, and document preparation was instrumental in shaping efficient and client-centered service delivery.',
+      'Task Force Legal Solutions provides professional legal consulting, document preparation support, compliance assistance, and administrative legal services for individuals, organizations, and public-service initiatives. Service areas include legal analysis, regulatory compliance, civil documentation, and case management support for efficient, ethical, and client-centered service delivery.',
     accentColor: '#1a3a5c',
     icon: taskforceIcon,
   },
@@ -33,7 +33,7 @@ const projects = [
     domain: 'Ebony Angels',
     category: 'Nonprofit | Youth Reform ',
     description:
-      'Ebony Angels is a nonprofit organization committed to uplifting women and families through health equity advocacy, community outreach, and holistic wellness programs. Tina applied her skills in grant development, healthcare coordination, and organizational branding to amplify the organization\'s impact and community reach.',
+      'Transformative Justice Youth Reform is a nonprofit organization dedicated to youth reform, restorative justice, trauma-informed awareness, and community-based support for justice-involved youth and families. Program support includes nonprofit leadership, program development, ACEs-informed advocacy, policy research, community outreach, and strategic organizational branding.',
     accentColor: '#6b2d8b',
     icon: toyIcon,
   },
