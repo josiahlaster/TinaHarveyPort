@@ -1,4 +1,7 @@
 import './Projects.css'
+import tlcIcon from '../assets/TLCLogo.png'
+import taskforceIcon from '../assets/TaskForceLogo.png'
+import toyIcon from '../assets/ToyLogo.png'
 
 const projects = [
   {
@@ -10,6 +13,7 @@ const projects = [
     description:
       'Transitions Legacy Center is a community-focused nonprofit dedicated to empowering individuals and families through supportive services, programming, and resources that foster lasting positive change. Tina contributed expertise in compliance, policy development, and nonprofit management to help strengthen organizational operations and mission delivery.',
     accentColor: '#4e8c6e',
+    icon: tlcIcon,
   },
   {
     id: 2,
@@ -20,6 +24,7 @@ const projects = [
     description:
       'Taskforce Legal Solutions provides accessible, professional consulting services to individuals and organizations navigating complex legal landscapes. Tina\'s background in legal analysis, regulatory compliance, and document preparation was instrumental in shaping efficient and client-centered service delivery.',
     accentColor: '#1a3a5c',
+    icon: taskforceIcon,
   },
   {
     id: 3,
@@ -30,6 +35,7 @@ const projects = [
     description:
       'Ebony Angels is a nonprofit organization committed to uplifting women and families through health equity advocacy, community outreach, and holistic wellness programs. Tina applied her skills in grant development, healthcare coordination, and organizational branding to amplify the organization\'s impact and community reach.',
     accentColor: '#6b2d8b',
+    icon: toyIcon,
   },
 ]
 
@@ -38,7 +44,11 @@ function ProjectCard({ project }) {
     <article className="project-card" style={{ '--accent': project.accentColor }}>
       <div className="card-accent-bar" />
       <div className="card-body">
-        <div className="card-icon">{project.icon}</div>
+        {project.icon && (
+          <div className="card-icon">
+            <img src={project.icon} alt={`${project.name} icon`} className="project-icon-img" />
+          </div>
+        )}
         <span className="card-category">{project.category}</span>
         <h2 className="card-title">{project.name}</h2>
         <p className="card-description">{project.description}</p>

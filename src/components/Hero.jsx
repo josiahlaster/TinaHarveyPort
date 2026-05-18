@@ -23,7 +23,7 @@ function Hero() {
           <div className="hero-actions">
             <a href="#contact" className="btn">Get In Touch</a>
             <a href={resumePdf} download className="btn btn-secondary">Download Resume</a>
-            <a href="https://www.linkedin.com/in/tina-marie-harvey-91480b318/" target="_blank" rel="noopener noreferrer" className="btn btn-linkedin">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/tinamarieharvey" target="_blank" rel="noopener noreferrer" className="btn btn-linkedin">LinkedIn</a>
           </div>
         </div>
       </div>
