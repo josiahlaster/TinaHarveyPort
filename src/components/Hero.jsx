@@ -13,7 +13,7 @@ function Hero() {
         </div>
         <div className="hero-text">
           <h1>TINA MARIE HARVEY </h1>
-          <h3>COMPLIANCE AND LEGAL ANALYST</h3>
+          <h3>LEGAL COMPLIANCE AND POLICY ANALYST</h3>
           <p className="bio">
             North Carolina Certified Paralegal and public administration professional seeking to contribute a multidisciplinary background in legal, healthcare, financial, nonprofit, and higher education administration to a high-level role requiring sound judgment, confidentiality, policy awareness, and operational accountability. Brings a strong ability to review complex information, identify issues, communicate professionally, support compliance requirements, and produce clear documentation that strengthens decision-making, risk management, and organizational performance.
           </p>
