@@ -15,7 +15,7 @@ function Hero() {
           <h1>TINA MARIE HARVEY </h1>
           <h3>COMPLIANCE AND LEGAL ANALYST</h3>
           <p className="bio">
-            Multidisciplinary professional with experience spanning legal support, accounting operations, quality assurance, policy development, organizational branding, workforce development and recruitment strategy, healthcare coordination, insurance operations, grant development, and nonprofit management. Demonstrates strong operational leadership and regulatory knowledge across public, private, and nonprofit sectors, with the ability to align legal, financial, and programmatic functions to enhance organizational performance, strengthen compliance, and support sustainable, mission-driven growth.
+            North Carolina Certified Paralegal and public administration professional seeking to contribute a multidisciplinary background in legal, healthcare, financial, nonprofit, and higher education administration to a high-level role requiring sound judgment, confidentiality, policy awareness, and operational accountability. Brings a strong ability to review complex information, identify issues, communicate professionally, support compliance requirements, and produce clear documentation that strengthens decision-making, risk management, and organizational performance.
           </p>
           <blockquote>
             "Success is not final, failure is not fatal: it is the courage to continue that counts."

@@ -15,10 +15,10 @@ function Footer() {
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-        </div>
+        </div> 
         <div className="footer-section">
           <h4>Contact</h4>
-          <p>Email: contact@portfolio.com</p>
+          <p>Email: info@tinamarieharvey.com</p>
           <p>Phone: (919) 438-3030</p>
           <p>Location: Raleigh-Durham, NC</p>
         </div>

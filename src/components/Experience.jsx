@@ -2,6 +2,20 @@ import './Experience.css'
 
 function Experience() {
   const experiences = [
+
+    {
+      title: "Account Manager",
+      company: "Durham Technical Community College | Durham, NC",
+      period: "2025 – Present",
+      description: [
+        "Manage higher education financial administration functions involving student accounts, sponsor billing, third-party funding, Veterans Administration funding, state and federal support, payment processing, refunds, collections, and reconciliation.",
+        "Review and verify financial records, account activity, authorizations, eligibility documentation, and compliance-related data to support accurate institutional decision-making.",
+        "Analyze account discrepancies, funding issues, payment records, balances, and student account trends to support resolution, reporting, and operational compliance.",
+        "Coordinate with Financial Aid, academic departments, sponsors, students, and leadership to resolve account concerns using professional communication, confidentiality, and policy-based judgment.",
+        "Develop and maintain Standard Operating Procedures, internal controls, process documentation, and audit-ready records to strengthen consistency, accountability, and compliance.",
+        "Apply higher education policy, financial administration standards, and student-centered service practices to support operational effectiveness and institutional integrity.",
+
+    },
     {
       title: "Graduate Assistant",
       company: "North Carolina Central University | Durham, NC",
@@ -15,17 +29,6 @@ function Experience() {
         "Supported training-related instruction connected to performance development, employee motivation, diversity and inclusion, leadership development, and organizational effectiveness.",
         "Maintained instructional records, assignment tracking, communication logs, and course-related documentation in accordance with university procedures.",
         "Partnered with faculty to strengthen learning outcomes, assessment processes, course delivery, and continuous instructional improvement."
-      ]
-    },
-    {
-      title: "Account Manager",
-      company: "Durham Technical Community College | Durham, NC",
-      period: "2025 – Present",
-      description: [
-        "Manage higher education financial administration functions involving student accounts, sponsor billing, third-party funding, Veterans Administration funding, state and federal support, payment processing, refunds, collections, and reconciliation.",
-        "Review and verify financial records, account activity, authorizations, eligibility documentation, and compliance-related data to support accurate institutional decisionmaking.",
-        "Develop and implement Standard Operating Procedures (SOPs), internal controls, and process documentation for grant administration, sponsorship billing, compliance tracking, and financial operations to strengthen governance and operational efficiency.",
-        "Conduct advanced accounts receivable analysis, monitor outstanding balances, support reporting and audit requests, and collaborate with Financial Aid, external agencies, and institutional leadership to resolve discrepancies, mitigate risk, and ensure regulatory compliance."
       ]
     },
     {
@@ -71,7 +74,7 @@ function Experience() {
         "Managed budgeting, contract compliance, financial forecasting, staff coordination, and healthcare operations to support compliant and efficient service delivery."
       ]
     },
-    {
+    /*{
       title: "CEO and Center Director",
       company: "Triumph Learning Academy | Durham, NC",
       period: "2010 - 2014",
@@ -81,7 +84,7 @@ function Experience() {
         "Adopt and adhere to administrative policies and operational procedures according to NC DHHS Division of Child Development and Early Education and NC Secretary of Health and Human Services.",
         "Conduct all administrative functions, including budgeting, finance, human resources, and regulatory compliance."
       ]
-    }
+    }*/
   ]
 
   return (
