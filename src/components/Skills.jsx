@@ -4,7 +4,6 @@ function Skills() {
   const skillCategories = [
     {
       title: "Business Solutions",
-      icon: "💼",
       skills: [
         "Data Analysis",
         "Project Management",
