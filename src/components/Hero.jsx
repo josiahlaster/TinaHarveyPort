@@ -1,6 +1,6 @@
 import './Hero.css'
 import headshot from '../assets/headshot2.png'
-import resumePdf from '../assets/Resume.pdf'
+import resumePdf from '../assets/TinaMarieHarveyResume.pdf'
 
 function Hero() {
   return (
@@ -15,7 +15,7 @@ function Hero() {
           <h1>TINA MARIE HARVEY </h1>
           <h3>COMPLIANCE AND LEGAL ANALYST</h3>
           <p className="bio">
-           Multidisciplinary professional with experience spanning legal support, accounting operations, quality assurance, policy development, organizational branding, workforce development and recruitment strategy, healthcare coordination, insurance operations, grant development, and nonprofit management. Demonstrates strong operational leadership and regulatory knowledge across public, private, and nonprofit sectors, with the ability to align legal, financial, and programmatic functions to enhance organizational performance, strengthen compliance, and support sustainable, mission-driven growth.
+            Multidisciplinary professional with experience spanning legal support, accounting operations, quality assurance, policy development, organizational branding, workforce development and recruitment strategy, healthcare coordination, insurance operations, grant development, and nonprofit management. Demonstrates strong operational leadership and regulatory knowledge across public, private, and nonprofit sectors, with the ability to align legal, financial, and programmatic functions to enhance organizational performance, strengthen compliance, and support sustainable, mission-driven growth.
           </p>
           <blockquote>
             "Success is not final, failure is not fatal: it is the courage to continue that counts."

@@ -1,0 +1,195 @@
+/* ─── Projects Page — matches home page theme ──────────────── */
+
+.projects-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* ── Hero banner ─────────────────────────────────────────────── */
+.projects-hero {
+  background-color: #f8f9fa;
+  padding: 80px 5%;
+  text-align: center;
+  border-bottom: 3px solid #d4af37;
+}
+
+.projects-eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #d4af37;
+  margin-bottom: 1rem;
+}
+
+.projects-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  /* override index.css gradient that may bleed in */
+  background: none;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+  background-clip: unset;
+}
+
+.projects-subheading {
+  font-size: 1.05rem;
+  color: #555555;
+  line-height: 1.8;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+/* ── Grid section ────────────────────────────────────────────── */
+.projects-grid-section {
+  padding: 80px 5%;
+  background-color: #ffffff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ── Card ────────────────────────────────────────────────────── */
+.project-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #d4af37;
+  box-shadow: 0 3px 15px rgba(212, 175, 55, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.35);
+}
+
+/* top accent bar uses the per-card --accent var as a tint,
+   but always resolves to gold if not set */
+.card-accent-bar {
+  height: 5px;
+  background-color: #d4af37;
+}
+
+.card-body {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.card-category {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #d4af37;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.card-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  /* reset App.css h2 centering for this context */
+  text-align: left;
+}
+
+.card-description {
+  font-size: 0.95rem;
+  color: #555555;
+  line-height: 1.8;
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+/* "Visit" label + button wrapper */
+.card-visit-area {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.card-visit-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #999999;
+}
+
+/* "Visit" button — uses the site's .btn style */
+.card-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 24px;
+  height: 48px;              /* fixed height — same on every card */
+  white-space: nowrap;       /* prevent text wrapping */
+  overflow: hidden;
+  background-color: #d4af37;
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-link:hover {
+  background-color: #b8941e;
+  transform: translateY(-2px);
+  color: #000000;
+  text-decoration: none;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .projects-hero {
+    padding: 60px 15px;
+  }
+
+  .projects-heading {
+    font-size: 2rem;
+  }
+
+  .projects-grid-section {
+    padding: 60px 15px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+}

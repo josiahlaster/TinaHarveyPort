@@ -1,9 +1,20 @@
+import { useNavigate, useLocation } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
+  const navigate = useNavigate()
+  const location = useLocation()
+
   const scrollToSection = (id) => {
-    const element = document.getElementById(id)
-    element?.scrollIntoView({ behavior: 'smooth' })
+    if (location.pathname !== '/') {
+      navigate('/')
+      // wait for navigation then scroll
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+      }, 100)
+    } else {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    }
   }
 
   return (
@@ -19,6 +30,12 @@ function Header() {
           <button onClick={() => scrollToSection('education')}>Education</button>
           <button onClick={() => scrollToSection('skills')}>Skills</button>
           <button onClick={() => scrollToSection('contact')}>Contact</button>
+          <button
+            className={`nav-projects-btn${location.pathname === '/projects' ? ' active' : ''}`}
+            onClick={() => navigate('/projects')}
+          >
+            Projects
+          </button>
         </nav>
       </div>
     </header>
