@@ -14,6 +14,7 @@ function Experience() {
         "Coordinate with Financial Aid, academic departments, sponsors, students, and leadership to resolve account concerns using professional communication, confidentiality, and policy-based judgment.",
         "Develop and maintain Standard Operating Procedures, internal controls, process documentation, and audit-ready records to strengthen consistency, accountability, and compliance.",
         "Apply higher education policy, financial administration standards, and student-centered service practices to support operational effectiveness and institutional integrity.",
+      ]
 
     },
     {
