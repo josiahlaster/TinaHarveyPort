@@ -17,9 +17,9 @@ const projects = [
   },
   {
     id: 2,
-    name: 'Taskforce Legal Solutions',
+    name: 'Task Force Legal Solutions',
     url: 'https://taskforcelegalsolutions.com',
-    domain: 'Taskforce Legal Solutions',
+    domain: 'Task Force Legal Solutions',
     category: 'Legal Services',
     description:
       'Task Force Legal Solutions provides professional legal consulting, document preparation support, compliance assistance, and administrative legal services for individuals, organizations, and public-service initiatives. Service areas include legal analysis, regulatory compliance, civil documentation, and case management support for efficient, ethical, and client-centered service delivery.',
