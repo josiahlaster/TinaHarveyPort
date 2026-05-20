@@ -31,7 +31,7 @@ const projects = [
     id: 3,
     name: 'TRANSFORMATIVE JUSTICE YOUTH REFORM',
     url: 'https://ebonyangels.org/',
-    domain: 'TRANSFORMATIVE JUSTICE YOUTH REFORM',
+    domain: 'TRANSFORMATIVE YOUTH ',
     category: 'NONPROFIT ADVOCACY ',
     description:
       'Transformative Justice Youth Reform is a nonprofit organization dedicated to youth reform, restorative justice, trauma-informed awareness, and community-based support for justice-involved youth and families. Program support includes nonprofit leadership, program development, ACEs-informed advocacy, policy research, community outreach, and strategic organizational branding.',
