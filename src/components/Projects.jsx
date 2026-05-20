@@ -45,7 +45,7 @@ const projects = [
     domain: 'Ebony Angels',
     category: 'SOCIAL ORGANIZATION ',
     description:
-      'Ebony Angels is a nonprofit organization committed to uplifting women and families through health equity advocacy, community outreach, and holistic wellness programs. Tina applied her skills in grant development, healthcare coordination, and organizational branding to amplify the organization\'s impact and community reach.',
+      'Ebony Angels is a New York–based women’s collective established in 1984, dedicated to sisterhood, friendship, and empowerment. The organization cultivates a strong membership network through fellowship, reunions, leadership enrichment, capacity building, and special events that strengthen unity and engagement while fostering professional development and personal growth.',
     accentColor: '#6b2d8b',
     icon: ebonyAngelsIcon,
   },
