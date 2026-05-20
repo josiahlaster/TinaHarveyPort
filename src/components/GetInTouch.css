@@ -1,0 +1,385 @@
+/* ─── Get In Touch Page ─────────────────────────────────────── */
+
+.git-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* ── Two-column layout ───────────────────────────────────────── */
+.git-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  padding: 80px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+/* ── Left column ─────────────────────────────────────────────── */
+.git-heading {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+  margin-bottom: 1.25rem;
+  line-height: 1.15;
+}
+
+.git-intro {
+  font-size: 1rem;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+.git-intro strong em {
+  color: #000000;
+}
+
+/* Contact cards */
+.git-contact-cards {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.git-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.git-contact-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #d4af37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #d4af37;
+}
+
+.git-contact-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+.git-contact-value {
+  font-size: 0.95rem;
+  color: #555555;
+  margin: 0;
+}
+
+.git-contact-sub {
+  font-size: 0.85rem;
+  color: #999999;
+  margin: 0;
+}
+
+/* Quote card */
+.git-quote-card {
+  margin-top: 3rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 2rem 2rem 1.5rem;
+  position: relative;
+  max-width: 280px;
+}
+
+.git-quote-mark {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 4rem;
+  color: #d4af37;
+  line-height: 1;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.git-quote-text {
+  font-size: 1rem;
+  color: #333333;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.git-quote-author {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.95rem;
+  color: #d4af37;
+  margin: 0;
+}
+
+/* ── Right column — Form ─────────────────────────────────────── */
+.git-right {
+  background-color: #ffffff;
+}
+
+.git-form-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.git-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.git-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.git-form-group label,
+.git-form-group legend {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 6px;
+}
+
+.git-form-group input[type="text"],
+.git-form-group input[type="email"],
+.git-form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  background-color: #fafafa;
+  color: #333333;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+.git-form-group input[type="text"]:focus,
+.git-form-group input[type="email"]:focus,
+.git-form-group textarea:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+}
+
+.git-form-group input::placeholder,
+.git-form-group textarea::placeholder {
+  color: #bbbbbb;
+}
+
+.git-form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Subject radio grid */
+.git-subject-group {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.git-subject-group legend {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.git-subject-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 24px;
+}
+
+.git-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #555555;
+  font-weight: 400 !important;
+  margin-bottom: 0 !important;
+}
+
+.git-radio-label input[type="radio"] {
+  accent-color: #d4af37;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Submit */
+.git-form-submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.git-send-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.git-send-btn:hover {
+  background-color: #333333;
+  transform: translateY(-1px);
+}
+
+.git-success {
+  font-size: 0.9rem;
+  color: #28a745;
+  font-weight: 600;
+  text-align: right;
+  margin: 0;
+}
+
+/* ── Bottom CTA banner ───────────────────────────────────────── */
+section.git-cta-banner {
+  background-color: #000000;
+  padding: 50px 5%;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* gold speckle accents at corners */
+.git-cta-banner::before,
+.git-cta-banner::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+.git-cta-banner::before {
+  top: -60px;
+  left: -60px;
+}
+.git-cta-banner::after {
+  bottom: -60px;
+  right: -60px;
+}
+
+.git-cta-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.git-cta-icon {
+  color: #d4af37;
+  flex-shrink: 0;
+}
+
+.git-cta-text h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.git-cta-text p {
+  font-size: 0.95rem;
+  color: #cccccc;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.git-cta-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.git-cta-btn:hover {
+  background-color: #d4af37;
+  color: #1a1a1a;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .git-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 60px 5%;
+  }
+
+  .git-heading {
+    font-size: 2.2rem;
+  }
+
+  .git-quote-card {
+    max-width: 100%;
+  }
+
+  .git-cta-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .git-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .git-subject-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .git-heading {
+    font-size: 1.8rem;
+  }
+
+  .git-form-submit {
+    justify-content: stretch;
+  }
+
+  .git-send-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

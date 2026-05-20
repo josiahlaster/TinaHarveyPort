@@ -2,6 +2,7 @@ import './Projects.css'
 import tlcIcon from '../assets/TLCLogo.png'
 import taskforceIcon from '../assets/TaskForceLogo.png'
 import toyIcon from '../assets/ToyLogo.png'
+import ebonyAngelsIcon from '../assets/ebonyAngelsIcon.png'
 
 const projects = [
   {
@@ -9,7 +10,7 @@ const projects = [
     name: 'Transitions Legacy Center',
     url: 'https://transitionslegacycenter.com/',
     domain: 'Transitions Legacy Center',
-    category: 'Community Services',
+    category: 'COMMUNITY SUPPORT',
     description:
       'A curated selection of organizations and initiatives supported through strategic leadership, legal compliance, nonprofit administration, operational development, and community-centered service.',
     accentColor: '#4e8c6e',
@@ -20,7 +21,7 @@ const projects = [
     name: 'Task Force Legal Solutions',
     url: 'https://taskforcelegalsolutions.com',
     domain: 'Task Force Legal Solutions',
-    category: 'Legal Services',
+    category: 'PARALEGAL SERVICES',
     description:
       'Task Force Legal Solutions provides professional legal consulting, document preparation support, compliance assistance, and administrative legal services for individuals, organizations, and public-service initiatives. Service areas include legal analysis, regulatory compliance, civil documentation, and case management support for efficient, ethical, and client-centered service delivery.',
     accentColor: '#1a3a5c',
@@ -30,12 +31,23 @@ const projects = [
     id: 3,
     name: 'Transformitive Youth',
     url: 'https://ebonyangels.org/',
-    domain: 'Ebony Angels',
-    category: 'Nonprofit | Youth Reform ',
+    domain: 'Transformitive Youth',
+    category: 'NONPROFIT ADVOCACY ',
     description:
       'Transformative Justice Youth Reform is a nonprofit organization dedicated to youth reform, restorative justice, trauma-informed awareness, and community-based support for justice-involved youth and families. Program support includes nonprofit leadership, program development, ACEs-informed advocacy, policy research, community outreach, and strategic organizational branding.',
     accentColor: '#6b2d8b',
     icon: toyIcon,
+  },
+    {
+    id: 4,
+    name: 'Transformitive Youth',
+    url: 'https://ebonyangels.org/',
+    domain: 'Ebony Angels',
+    category: 'Nonprofit | Youth Reform ',
+    description:
+      'Ebony Angels is a nonprofit organization committed to uplifting women and families through health equity advocacy, community outreach, and holistic wellness programs. Tina applied her skills in grant development, healthcare coordination, and organizational branding to amplify the organization\'s impact and community reach.',
+    accentColor: '#6b2d8b',
+    icon: ebonyAngelsIcon,
   },
 ]
 

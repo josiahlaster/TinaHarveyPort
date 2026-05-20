@@ -36,6 +36,12 @@ function Header() {
           >
             Projects
           </button>
+          <button
+            className={`nav-git-btn${location.pathname === '/get-in-touch' ? ' active' : ''}`}
+            onClick={() => navigate('/get-in-touch')}
+          >
+            Get In Touch
+          </button>
         </nav>
       </div>
     </header>

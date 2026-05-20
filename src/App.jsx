@@ -9,6 +9,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+import GetInTouch from './components/GetInTouch'
 
 function HomePage() {
   return (
@@ -18,7 +19,7 @@ function HomePage() {
       <Education />
       <Certificates />
       <Skills />
-      <Contact />
+     
       <Footer />
     </>
   )
@@ -31,6 +32,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/get-in-touch" element={<GetInTouch />} />
       </Routes>
     </div>
   )

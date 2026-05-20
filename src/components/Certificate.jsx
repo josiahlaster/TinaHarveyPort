@@ -45,7 +45,7 @@ function Certificates() {
             <p className="field">{edu.field}</p>
             <p className="institution">{edu.institution}</p>
             <p className="year">{edu.year}</p>
-            {edu.honors && <p className="honors">✨ {edu.honors}</p>}
+            {edu.honors && <p className="honors"> {edu.honors}</p>}
           </div>
         ))}
       </div>
