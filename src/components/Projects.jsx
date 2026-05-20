@@ -29,21 +29,21 @@ const projects = [
   },
   {
     id: 3,
-    name: 'Transformative Youth',
+    name: 'TRANSFORMATIVE JUSTICE YOUTH REFORM',
     url: 'https://ebonyangels.org/',
-    domain: 'Transformative Youth',
+    domain: 'TRANSFORMATIVE JUSTICE YOUTH REFORM',
     category: 'NONPROFIT ADVOCACY ',
     description:
-      'Ebony Angels is a New York–based women’s collective established in 1984, dedicated to sisterhood, friendship, and empowerment. The organization cultivates a strong membership network through fellowship, reunions, leadership enrichment, capacity building, and special events that strengthen unity and engagement while fostering professional development and personal growth.',
+      'Transformative Justice Youth Reform is a nonprofit organization dedicated to youth reform, restorative justice, trauma-informed awareness, and community-based support for justice-involved youth and families. Program support includes nonprofit leadership, program development, ACEs-informed advocacy, policy research, community outreach, and strategic organizational branding.',
     accentColor: '#6b2d8b',
     icon: toyIcon,
   },
     {
     id: 4,
-    name: 'Transformative Youth',
+    name: 'EBONY ANGELS',
     url: 'https://ebonyangels.org/',
     domain: 'Ebony Angels',
-    category: 'Nonprofit | Youth Reform ',
+    category: 'SOCIAL ORGANIZATION ',
     description:
       'Ebony Angels is a nonprofit organization committed to uplifting women and families through health equity advocacy, community outreach, and holistic wellness programs. Tina applied her skills in grant development, healthcare coordination, and organizational branding to amplify the organization\'s impact and community reach.',
     accentColor: '#6b2d8b',
