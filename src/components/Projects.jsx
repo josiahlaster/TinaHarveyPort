@@ -12,7 +12,7 @@ const projects = [
     domain: 'Transitions Legacy Center',
     category: 'COMMUNITY SUPPORT',
     description:
-      'A curated selection of organizations and initiatives supported through strategic leadership, legal compliance, nonprofit administration, operational development, and community-centered service.',
+      'Transitions Legacy Center is a community-based organization focused on peer support, reentry services, resource navigation, and transition-focused programming for individuals and families. Core support includes compliance guidance, policy development, nonprofit management, operational structure, and strategic service planning to strengthen organizational growth and mission delivery.',
     accentColor: '#4e8c6e',
     icon: tlcIcon,
   },
@@ -93,8 +93,7 @@ function Projects() {
           <span className="projects-eyebrow">Portfolio</span>
           <h1 className="projects-heading">Featured Projects</h1>
           <p className="projects-subheading">
-            A selection of organizations and initiatives Tina has supported
-            through strategic leadership, compliance expertise, and operational excellence.
+           A curated selection of organizations and initiatives supported through strategic leadership, legal compliance, nonprofit administration, operational development, and community-centered service.
           </p>
         </div>
       </div>
