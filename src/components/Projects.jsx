@@ -7,7 +7,7 @@ import ebonyAngelsIcon from '../assets/ebonyAngelsIcon.png'
 const projects = [
   {
     id: 1,
-    name: 'Transitions Legacy Center',
+    name: 'Transitions\nLegacy Center',
     url: 'https://transitionslegacycenter.com/',
     domain: 'Transitions Legacy Center',
     category: 'COMMUNITY SUPPORT',
@@ -18,7 +18,7 @@ const projects = [
   },
   {
     id: 2,
-    name: 'Task Force Legal Solutions',
+    name: 'Task Force\nLegal Solutions',
     url: 'https://taskforcelegalsolutions.com',
     domain: 'Task Force Legal Solutions',
     category: 'PARALEGAL SERVICES',
@@ -52,6 +52,8 @@ const projects = [
 ]
 
 function ProjectCard({ project }) {
+  const titleLines = project.name.split('\n')
+
   return (
     <article className="project-card" style={{ '--accent': project.accentColor }}>
       <div className="card-accent-bar" />
@@ -62,7 +64,14 @@ function ProjectCard({ project }) {
           </div>
         )}
         <span className="card-category">{project.category}</span>
-        <h2 className="card-title">{project.name}</h2>
+        <h2 className="card-title">
+          {titleLines.map((line, index) => (
+            <span key={index}>
+              {line}
+              {index < titleLines.length - 1 && <br />}
+            </span>
+          ))}
+        </h2>
         <p className="card-description">{project.description}</p>
         <div className="card-visit-area">
           <span className="card-visit-label">Visit</span>
