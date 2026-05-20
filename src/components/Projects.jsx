@@ -29,9 +29,9 @@ const projects = [
   },
   {
     id: 3,
-    name: 'TransformativeYouth',
+    name: 'Transformative Youth',
     url: 'https://ebonyangels.org/',
-    domain: 'TransformativeYouth',
+    domain: 'Transformative Youth',
     category: 'NONPROFIT ADVOCACY ',
     description:
       'Transformative Justice Youth Reform is a nonprofit organization dedicated to youth reform, restorative justice, trauma-informed awareness, and community-based support for justice-involved youth and families. Program support includes nonprofit leadership, program development, ACEs-informed advocacy, policy research, community outreach, and strategic organizational branding.',
@@ -40,7 +40,7 @@ const projects = [
   },
     {
     id: 4,
-    name: 'TransformativeYouth',
+    name: 'Transformative Youth',
     url: 'https://ebonyangels.org/',
     domain: 'Ebony Angels',
     category: 'Nonprofit | Youth Reform ',
