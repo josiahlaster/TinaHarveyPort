@@ -1,14 +1,17 @@
 import './Hero.css'
 import headshot from '../assets/headshot2.png'
+import heroBackground from '../assets/HeroBackGround.png'
 import resumePdf from '../assets/TinaMarieHarveyResume.pdf'
 
 function Hero() {
   return (
-    <section id="about" className="hero">
+    <section id="about" className="hero" style={{ backgroundImage: `url(${heroBackground})` }}>
       <div className="hero-content">
         <div className="hero-image">
-          <div className="profile-photo">
-            <img src={headshot} alt="Tina Harvey" />
+          <div className="profile-frame">
+            <div className="profile-photo">
+              <img src={headshot} alt="Tina Harvey" />
+            </div>
           </div>
         </div>
         <div className="hero-text">
@@ -21,9 +24,27 @@ function Hero() {
             "Success is not final, failure is not fatal: it is the courage to continue that counts."
           </blockquote>
           <div className="hero-actions">
-            <a href="#contact" className="btn">Get In Touch</a>
-            <a href={resumePdf} download className="btn btn-secondary">Download Resume</a>
-            <a href="https://www.linkedin.com/in/tinamarieharvey" target="_blank" rel="noopener noreferrer" className="btn btn-linkedin">LinkedIn</a>
+            <a href="#contact" className="btn get-in-touch">
+              <span className="btn-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 4h16v16H4z" />
+                  <path d="M4 4l8 8 8-8" />
+                </svg>
+              </span>
+              Get In Touch
+            </a>
+            <a href={resumePdf} download className="btn btn-secondary">
+              <span className="btn-icon document-icon">
+                <img src="/documentIcon.png" alt="Document icon" />
+              </span>
+              Download Resume
+            </a>
+            <a href="https://www.linkedin.com/in/tinamarieharvey" target="_blank" rel="noopener noreferrer" className="btn btn-linkedin">
+              <span className="btn-icon">
+                <img src="/linkedin.png" alt="LinkedIn" />
+              </span>
+              LinkedIn
+            </a>
           </div>
         </div>
       </div>

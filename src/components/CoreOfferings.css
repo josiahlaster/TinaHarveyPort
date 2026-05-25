@@ -1,0 +1,147 @@
+.core-offerings {
+  padding: 80px 5%;
+  background-color: #f9f9f9;
+}
+
+.offerings-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.offering-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.offering-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+.card-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #d4af37;
+  flex-shrink: 0;
+}
+
+.card-icon img,
+.card-icon svg {
+  width: 48px;
+  height: 48px;
+  filter: invert(91%) sepia(57%) saturate(460%) hue-rotate(4deg) brightness(105%) contrast(92%);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.offering-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.offering-card h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background-color: #d4af37;
+}
+
+.offering-card p {
+  font-size: 0.95rem;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.card-link {
+  color: #d4af37 !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: color 0.3s ease;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  display: inline;
+  cursor: pointer;
+}
+
+.card-link:hover {
+  color: #b8941e !important;
+}
+
+@media (max-width: 1024px) {
+  .offerings-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .core-offerings {
+    padding: 60px 15px;
+  }
+
+  .offerings-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .offering-card {
+    padding: 30px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .card-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0;
+  }
+
+  .card-icon img,
+  .card-icon svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .offering-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .offering-card p {
+    font-size: 0.9rem;
+  }
+}

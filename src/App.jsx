@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import CoreOfferings from './components/CoreOfferings'
 import Experience from './components/Experience'
 import Education from './components/Education'
 import Certificates from './components/Certificate'
@@ -15,6 +16,7 @@ function HomePage() {
   return (
     <>
       <Hero />
+      <CoreOfferings />
       <Experience />
       <Education />
       <Certificates />

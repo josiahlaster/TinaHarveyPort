@@ -1,4 +1,5 @@
 import { useNavigate, useLocation } from 'react-router-dom'
+import logo from '../assets/TMHlogo.png'
 import './Header.css'
 
 function Header() {
@@ -20,6 +21,13 @@ function Header() {
   return (
     <header className="header">
       <div className="header-content">
+        <div className="logo">
+          <img src={logo} alt="TMH logo" />
+          <div className="logo-copy">
+            <span className="logo-text">TINA MARIE HARVEY</span>
+            <span className="logo-subtitle">LEGAL COMPLIANCE AND POLICY ANALYST</span>
+          </div>
+        </div>
         <div className="contact-info">
           <span>Email: info@tinamarieharvey.com</span>
           <span>Phone: (919) 438-3030</span>
