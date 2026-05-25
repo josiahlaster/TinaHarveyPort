@@ -30,7 +30,7 @@ const projects = [
   {
     id: 3,
     name: 'TRANSFORMATIVE JUSTICE YOUTH REFORM',
-    url: 'https://ebonyangels.org/',
+    url: 'https://www.tinamarieharvey.com/#/projects',
     domain: 'TRANSFORMATIVE YOUTH ',
     category: 'NONPROFIT ADVOCACY ',
     description:
