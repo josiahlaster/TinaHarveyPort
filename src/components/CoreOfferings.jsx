@@ -1,4 +1,7 @@
 import './CoreOfferings.css'
+import coreCompIcon from '../assets/CoreComp.png'
+import leadIcon from '../assets/lead.png'
+import credsIcon from '../assets/creds.png'
 
 function CoreOfferings() {
   return (
@@ -6,7 +9,7 @@ function CoreOfferings() {
       <div className="offerings-container">
         <div className="offering-card">
           <div className="card-icon">
-            {/* Icon will go here */}
+            <img src={coreCompIcon} alt="Core Competencies" />
           </div>
           <div className="card-content">
             <h3>CORE COMPETENCIES</h3>
@@ -19,7 +22,7 @@ function CoreOfferings() {
 
         <div className="offering-card">
           <div className="card-icon">
-            {/* Icon will go here */}
+            <img src={leadIcon} alt="Leadership Profiles" />
           </div>
           <div className="card-content">
             <h3>LEADERSHIP PROFILES</h3>
@@ -32,7 +35,7 @@ function CoreOfferings() {
 
         <div className="offering-card">
           <div className="card-icon">
-            {/* Icon will go here */}
+            <img src={credsIcon} alt="Credentials" />
           </div>
           <div className="card-content">
             <h3>CREDENTIALS</h3>
