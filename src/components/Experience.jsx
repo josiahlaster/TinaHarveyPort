@@ -75,17 +75,21 @@ function Experience() {
         "Managed budgeting, contract compliance, financial forecasting, staff coordination, and healthcare operations to support compliant and efficient service delivery."
       ]
     },
-    /*{
+    {
       title: "CEO and Center Director",
       company: "Triumph Learning Academy | Durham, NC",
       period: "2010 - 2014",
       description: [
-        "Deliver evidence-based and culturally sensitive counseling, education, and activities.",
-        "Organize professional development seminars to maintain a working knowledge of the current best practices of curriculum and administration in child development programs.",
-        "Adopt and adhere to administrative policies and operational procedures according to NC DHHS Division of Child Development and Early Education and NC Secretary of Health and Human Services.",
-        "Conduct all administrative functions, including budgeting, finance, human resources, and regulatory compliance."
+       "Directed operations for a licensed North Carolina educational and childcare facility, ensuring compliance with state licensing, health, safety, and administrative regulations.",
+        "Managed budgeting, tuition processing, payroll coordination, accounting records, financial reporting, and operational expenditures.",
+        "Maintained OSHA-aligned workplace safety practices, sanitation standards, emergency procedures, incident reporting, and risk management protocols.",
+        "Developed policies, quality standards, inclusive curriculum initiatives, and operational procedures to support educational development and regulatory compliance.",
+        "Oversaw recruitment, onboarding, training, scheduling, supervision, and personnel documentation for instructional and support staff.",
+        "Coordinated enrollment, family engagement, parent communication, confidential records management, state inspections, licensing reviews, and audit preparation.",
+        "Supervised nutrition compliance, meal planning standards, and program documentation in accordance with North Carolina childcare guidelines.",
+        "Prepared grant proposals, funding requests, and partnership materials to strengthen programming and organizational sustainability.",
       ]
-    }*/
+    }
   ]
 
   return (
