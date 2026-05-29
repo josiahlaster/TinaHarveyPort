@@ -11,6 +11,8 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 import GetInTouch from './components/GetInTouch'
+import LeadershipPortfolio from './components/LeadershipPortfolio'
+
 
 function HomePage() {
   return (
@@ -21,7 +23,7 @@ function HomePage() {
       <Education />
       <Certificates />
       <Skills />
-     
+
       <Footer />
     </>
   )
@@ -35,6 +37,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/get-in-touch" element={<GetInTouch />} />
+        <Route path="/leadership-portfolio" element={<LeadershipPortfolio />} />
       </Routes>
     </div>
   )

@@ -66,6 +66,33 @@
   margin-bottom: 1.5rem;
 }
 
+.hero-quote {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  margin: 1.5rem 0;
+}
+
+.hero-quote-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.hero-quote-text {
+  font-style: italic;
+  font-size: 1.15rem;
+  color: #666666;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.hero-quote-author {
+  color: #d4af37;
+  font-weight: 600;
+}
+
 .hero-actions {
   display: flex;
   gap: 15px;

@@ -2,6 +2,7 @@ import './Hero.css'
 import headshot from '../assets/headshot2.png'
 import heroBackground from '../assets/HeroBackGround.png'
 import resumePdf from '../assets/TinaMarieHarveyResume.pdf'
+import quotesIcon from '../assets/quotes.png'
 
 function Hero() {
   return (
@@ -20,9 +21,14 @@ function Hero() {
           <p className="bio">
             North Carolina Certified Paralegal and public administration professional seeking to contribute a multidisciplinary background in legal, healthcare, financial, nonprofit, and higher education administration to a high-level role requiring sound judgment, confidentiality, policy awareness, and operational accountability. Brings a strong ability to review complex information, identify issues, communicate professionally, support compliance requirements, and produce clear documentation that strengthens decision-making, risk management, and organizational performance.
           </p>
-          <blockquote>
-            "There is in this world no such force as the force of a person determined to rise ~ W.E.B. DuBois"
-          </blockquote>
+          <div className="hero-quote">
+            <img src={quotesIcon} alt="Quote" className="hero-quote-icon" />
+            <p className="hero-quote-text">
+              "There is in this world no such force as the force of a person determined to rise"
+              <br />
+              <span className="hero-quote-author">~ W.E.B. DuBois</span>
+            </p>
+          </div>
           <div className="hero-actions">
             <a href="#contact" className="btn get-in-touch">
               <span className="btn-icon">

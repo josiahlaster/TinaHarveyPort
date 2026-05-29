@@ -1,4 +1,5 @@
 import './Projects.css'
+import MediaShowcase from './MediaShowcase'
 import tlcIcon from '../assets/TLCLogo.png'
 import taskforceIcon from '../assets/TaskForceLogo.png'
 import toyIcon from '../assets/ToyLogo.png'
@@ -114,6 +115,8 @@ function Projects() {
           ))}
         </div>
       </section>
+
+      <MediaShowcase />
     </main>
   )
 }
