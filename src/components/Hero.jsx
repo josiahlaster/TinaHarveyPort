@@ -21,7 +21,7 @@ function Hero() {
             North Carolina Certified Paralegal and public administration professional seeking to contribute a multidisciplinary background in legal, healthcare, financial, nonprofit, and higher education administration to a high-level role requiring sound judgment, confidentiality, policy awareness, and operational accountability. Brings a strong ability to review complex information, identify issues, communicate professionally, support compliance requirements, and produce clear documentation that strengthens decision-making, risk management, and organizational performance.
           </p>
           <blockquote>
-            "Success is not final, failure is not fatal: it is the courage to continue that counts."
+            "There is in this world no such force as the force of a person determined to rise ~ W.E.B. DuBois"
           </blockquote>
           <div className="hero-actions">
             <a href="#contact" className="btn get-in-touch">

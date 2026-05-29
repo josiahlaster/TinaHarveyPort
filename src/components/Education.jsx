@@ -1,4 +1,8 @@
 import './Education.css'
+import associateOfScience from '../assets/associateOfScience.png'
+import bachelorOfScience from '../assets/bachelorOfScience.png'
+import masterofAdmin from '../assets/masterofAdmin.png'
+import graduateCert from '../assets/graduateCert.png'
 
 function Education() {
   const education = [
@@ -8,7 +12,7 @@ function Education() {
       institution: "North Carolina Central University",
       year: "2025–2026",
       honors: "Graduate Certificate",
-      icon: "📜"
+      icon: graduateCert,
     },
     {
       degree: "Master of Public Administration",
@@ -16,7 +20,7 @@ function Education() {
       institution: "North Carolina Central University",
       year: "2024–2025",
       honors: "Summa Cum Laude",
-      icon: "🏛️"
+      icon: masterofAdmin,
     },
     {
       degree: "Bachelor of Science",
@@ -24,7 +28,7 @@ function Education() {
       institution: "Kennesaw State University",
       year: "2022–2024",
       honors: "Cum Laude",
-      icon: "🧠"
+      icon: bachelorOfScience,
     },
     {
       degree: "Associate of Science",
@@ -32,7 +36,7 @@ function Education() {
       institution: "University of Mount Olive",
       year: "2007–2010",
       honors: "Magna Cum Laude",
-      icon: "👶"
+      icon: associateOfScience,
     },
 
   ]
@@ -50,7 +54,9 @@ function Education() {
       <div className="education-grid">
         {education.map((edu, index) => (
           <div key={index} className="education-card">
-            <div className="degree-icon">{edu.icon}</div>
+            <div className="degree-icon">
+              <img src={edu.icon} alt={edu.degree} />
+            </div>
             <h3>{edu.degree}</h3>
             <div className="divider">
               <span className="diamond-small">◆</span>
