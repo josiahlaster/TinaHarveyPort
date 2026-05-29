@@ -1,7 +1,13 @@
 import './CoreOfferings.css'
+import { Link } from 'react-router-dom'
 import coreCompIcon from '../assets/CoreComp.png'
 import LeadPro from '../assets/LeadPro.png'
 import credsIcon from '../assets/creds.png'
+
+const scrollTo = (id) => {
+  const el = document.getElementById(id)
+  if (el) el.scrollIntoView({ behavior: 'smooth' })
+}
 
 function CoreOfferings() {
   return (
@@ -16,7 +22,7 @@ function CoreOfferings() {
             <p>
               Financial administration, compliance oversight, policy analysis, risk management, records management, and operational accountability.
             </p>
-            <a href="#" className="card-link">LEARN MORE →</a>
+            <button onClick={() => scrollTo('skills')} className="card-link">LEARN MORE →</button>
           </div>
         </div>
 
@@ -29,7 +35,7 @@ function CoreOfferings() {
             <p>
               Experienced in leading cross-functional teams, collaborating with stakeholders, and supporting institutional goals with integrity and excellence.
             </p>
-            <a href="#" className="card-link">VIEW PROFILES →</a>
+            <Link to="/leadership-portfolio" className="card-link">VIEW PROFILES →</Link>
           </div>
         </div>
 
@@ -42,7 +48,7 @@ function CoreOfferings() {
             <p>
               North Carolina Certified Paralegal with a background in public administration and continuous professional development.
             </p>
-            <a href="#" className="card-link">VIEW CREDENTIALS →</a>
+            <button onClick={() => scrollTo('education')} className="card-link">VIEW CREDENTIALS →</button>
           </div>
         </div>
       </div>
