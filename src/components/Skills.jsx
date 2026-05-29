@@ -33,7 +33,7 @@ function Skills() {
 
   return (
     <section id="skills" className="skills">
-      <h2>Skills</h2>
+      <h2>Professional Skills</h2>
       <blockquote className="skills-quote">
         "Excellence is not a destination; it is a continuous journey that never ends."
       </blockquote>

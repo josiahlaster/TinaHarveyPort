@@ -150,7 +150,7 @@ function LeadershipPortfolio() {
       </div>
 
       <div className="leadership-overview">
-        <h3 className="leadership-overview-title">COMPREHENSIVE LEADERSHIP OVERVIEW</h3>
+        <h3 className="leadership-overview-title">COMPREHENSIVE OVERVIEW</h3>
         <div className="leadership-divider">
           <span className="leadership-divider-line" />
           <span className="leadership-divider-diamond">✦</span>

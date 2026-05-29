@@ -1,6 +1,6 @@
 import './CoreOfferings.css'
 import coreCompIcon from '../assets/CoreComp.png'
-import leadIcon from '../assets/lead.png'
+import LeadPro from '../assets/LeadPro.png'
 import credsIcon from '../assets/creds.png'
 
 function CoreOfferings() {
@@ -22,7 +22,7 @@ function CoreOfferings() {
 
         <div className="offering-card">
           <div className="card-icon">
-            <img src={leadIcon} alt="Leadership Profiles" />
+            <img src={LeadPro} alt="Leadership Profiles" />
           </div>
           <div className="card-content">
             <h3>LEADERSHIP PROFILES</h3>

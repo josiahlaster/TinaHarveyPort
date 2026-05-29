@@ -9,40 +9,40 @@ const mediaProjects = [
   {
     id: 1,
     subtitle: 'LEGISLATIVE REFORM',
-    title: 'ACES\nPOLICY BRIEF',
+    title: 'ACES\nPolicy Brief',
     description:
       'A policy brief examining adverse childhood experiences through a legislative and public administration lens.',
-    buttonText: 'VIEW ADVOCACY MEDIA',
+    buttonText: 'View Advocacy Media',
     icon: acespolicy,
     videoUrl: '/videos/ACEs_Policy_Brief.mp4',
   },
   {
     id: 2,
     subtitle: 'PSYCHOLOGY RESEARCH',
-    title: 'SCAFFOLDING\nSUCCESS THEORY',
+    title: 'Scaffolding\nSuccess Therory',
     description:
       'A theoretical framework exploring how early support, structured environments, and targeted resources build capacity, confidence, and long-term success.',
-    buttonText: 'VIEW ARCHITECTURE FRAMEWORK',
+    buttonText: 'View Architecture Framework',
     icon: Scaffolding,
     videoUrl: '/videos/PsychologyCapstone.mp4',
   },
   {
     id: 3,
     subtitle: 'SOCIAL ENTERPRISE',
-    title: 'TRANSFORMATIVE\nYOUTH IMPACT',
+    title: 'Transformative\nYouth Impact',
     description:
       'A nonprofit service delivery model for community engagement designed to advance restorative justice practices, diversion programs, and long-term organizational stability.',
-    buttonText: 'VIEW BUSINESS BLUEPRINT',
+    buttonText: 'View Business Blueprint',
     icon: Transformative,
     videoUrl: '/videos/TransformativeYouth.mp4',
   },
   {
     id: 4,
     subtitle: 'WORKFORCE STRATEGY',
-    title: 'HRD ENGAGEMENT\n& RETENTION',
+    title: 'HRD Engagement\n& Retention',
     description:
       'An HRD project focused on employee engagement, talent development, and long-term retention strategy.',
-    buttonText: 'VIEW HUMAN CAPITAL ROADMAP',
+    buttonText: 'View Human Capital Roadmap',
     icon: engagement,
     videoUrl: '/videos/HRDPresentation.mp4',
   },
