@@ -1,51 +1,70 @@
-import './Certificate.css'
+import './Education.css'
+import civilLitCert from '../assets/civilLitCert.png'
+import familyLawCert from '../assets/familyLawCert.png'
+import paralegalDiploma from '../assets/paralegalDiploma.png'
+import realEstateCert from '../assets/realEstateCert.png'
 
-function Certificates() {
+function Education() {
   const education = [
     {
       degree: "Advanced Certificate",
       field: "Real Estate Law",
       institution: "Blackstone Career Institute",
       year: "2024",
-      honors: ""
+      icon: realEstateCert,
     },
     {
       degree: "Advanced Certificate",
       field: "Civil Litigation",
       institution: "Blackstone Career Institute",
       year: "2021",
-      honors: ""
+      icon: civilLitCert,
     },
     {
       degree: "Advanced Certificate",
       field: "Family Law",
       institution: "Blackstone Career Institute",
-      year: "2020",
-      honors: ""
+      year: "2022",
+      icon: familyLawCert,
     },
     {
-      degree: "Diploma",
+      degree: "Dimploma",
       field: "Legal Assistant/Paralegal",
       institution: "Blackstone Career Institute",
       year: "2019",
-      honors: "Honors Distinction"
+      honors: "Honors Distinction",
+      icon: paralegalDiploma,
     },
-    
 
   ]
 
   return (
-    <section id="certificates" className="certificate">
-      <h2>Paralegal Education</h2>
-      <div className="certificate-grid">
+    <section id="education" className="education">
+      <div className="education-header">
+        <h2>PARALEGAL EDUCATION</h2>
+        <div className="header-divider">
+          <span className="line"></span>
+          <span className="diamond">◆</span>
+          <span className="line"></span>
+        </div>
+      </div>
+      <div className="education-grid">
         {education.map((edu, index) => (
-          <div key={index} className="certificate-card">
-            <div className="certificate-icon">{edu.icon}</div>
+          <div key={index} className="education-card">
+            <div className="degree-icon">
+              <img src={edu.icon} alt={edu.degree} />
+            </div>
             <h3>{edu.degree}</h3>
+            <div className="divider">
+              <span className="diamond-small">◆</span>
+            </div>
             <p className="field">{edu.field}</p>
             <p className="institution">{edu.institution}</p>
             <p className="year">{edu.year}</p>
-            {edu.honors && <p className="honors"> {edu.honors}</p>}
+            <div className="divider">
+              <span className="diamond-small">◆</span>
+            </div>
+            {edu.honors && <p className="honors">{edu.honors}</p>}
           </div>
         ))}
       </div>
@@ -53,4 +72,4 @@ function Certificates() {
   )
 }
 
-export default Certificates
+export default Education
