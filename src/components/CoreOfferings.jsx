@@ -38,7 +38,7 @@ function CoreOfferings() {
             <img src={credsIcon} alt="Credentials" />
           </div>
           <div className="card-content">
-            <h3>CREDENTIALS</h3>
+            <h3>CAREER CREDENTIALS</h3>
             <p>
               North Carolina Certified Paralegal with a background in public administration and continuous professional development.
             </p>
