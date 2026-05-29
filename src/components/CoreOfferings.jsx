@@ -31,7 +31,7 @@ function CoreOfferings() {
             <img src={LeadPro} alt="Leadership Profiles" />
           </div>
           <div className="card-content">
-            <h3>LEADERSHIP PROFILES</h3>
+            <h3>EXECUTIVE PROFILES</h3>
             <p>
               Experienced in leading cross-functional teams, collaborating with stakeholders, and supporting institutional goals with integrity and excellence.
             </p>
