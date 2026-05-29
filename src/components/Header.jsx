@@ -37,7 +37,7 @@ function Header() {
           <button onClick={() => scrollToSection('experience')}>Experience</button>
           <button onClick={() => scrollToSection('education')}>Education</button>
           <button onClick={() => scrollToSection('skills')}>Skills</button>
-          <button onClick={() => scrollToSection('contact')}>Contact</button>
+
           <button
             className={`nav-projects-btn${location.pathname === '/projects' ? ' active' : ''}`}
             onClick={() => navigate('/projects')}
