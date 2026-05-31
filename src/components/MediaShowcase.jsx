@@ -12,7 +12,7 @@ const mediaProjects = [
     title: 'ACEs Policy Brief',
     description:
       'A policy brief examining adverse childhood experiences through a legislative and public administration lens.',
-    buttonText: 'View Advocacy Media',
+    buttonText: 'View Advocacy\nMedia',
     icon: acespolicy,
     videoUrl: '/videos/New_ACEs_Policy_Brief.mp4',
   },
