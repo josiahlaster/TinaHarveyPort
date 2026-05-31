@@ -48,7 +48,7 @@ function Header() {
             className={`nav-projects-btn${location.pathname === '/leadership-portfolio' ? ' active' : ''}`}
             onClick={() => navigate('/leadership-portfolio')}
           >
-            Portfolio
+            Profiles
           </button>
           <button
             className={`nav-git-btn${location.pathname === '/get-in-touch' ? ' active' : ''}`}

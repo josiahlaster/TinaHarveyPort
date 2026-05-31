@@ -28,7 +28,7 @@ function Education() {
       icon: familyLawCert,
     },
     {
-      degree: "Dimploma",
+      degree: "Diploma",
       field: "Legal Assistant/Paralegal",
       institution: "Blackstone Career Institute",
       year: "2019",

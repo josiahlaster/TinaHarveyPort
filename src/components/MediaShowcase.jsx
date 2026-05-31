@@ -9,17 +9,17 @@ const mediaProjects = [
   {
     id: 1,
     subtitle: 'LEGISLATIVE REFORM',
-    title: 'ACES\nPolicy Brief',
+    title: 'ACEs Policy Brief',
     description:
       'A policy brief examining adverse childhood experiences through a legislative and public administration lens.',
     buttonText: 'View Advocacy Media',
     icon: acespolicy,
-    videoUrl: '/videos/ACEs_Policy_Brief.mp4',
+    videoUrl: '/videos/New_ACEs_Policy_Brief.mp4',
   },
   {
     id: 2,
     subtitle: 'PSYCHOLOGY RESEARCH',
-    title: 'Scaffolding\nSuccess Therory',
+    title: 'Scaffolding\nSuccess Theory',
     description:
       'A theoretical framework exploring how early support, structured environments, and targeted resources build capacity, confidence, and long-term success.',
     buttonText: 'View Architecture Framework',
