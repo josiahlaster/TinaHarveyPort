@@ -13,9 +13,10 @@ function Footer() {
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#get-in-touch">Contact</a></li>
           </ul>
-        </div> 
+                    <p><a href="/resume.pdf" download>Download Resume</a></p>
+        </div>
         <div className="footer-section">
           <h4>Contact</h4>
           <p>Email: info@tinamarieharvey.com</p>
@@ -25,10 +26,9 @@ function Footer() {
         <div className="footer-section">
           <h4>AFFILIATIONS</h4>
           <p>National Association of Legal Assistants (NALA)</p>
-          <p>National Association of Peer Supporters (NAPS)</p>
           <p>National Council of Juvenile and Family Court Judges (NCJFCJ)</p>
           <p>National Forum for Black Public Administrators (NFBPA)</p>
-          <p><a href="/resume.pdf" download>Download Resume</a></p>
+
         </div>
       </div>
       <div className="footer-bottom">

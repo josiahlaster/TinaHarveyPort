@@ -11,7 +11,7 @@ const subjectOptions = [
   'Speaking Engagement',
   'Mentorship / Support',
   'Partnership Opportunity',
-  'Other(ex. References, Transcripts)',
+  'Other (ex. References, Transcripts)',
 ]
 
 function GetInTouch() {
