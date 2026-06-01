@@ -11,7 +11,7 @@ const subjectOptions = [
   'Speaking Engagement',
   'Mentorship / Support',
   'Partnership Opportunity',
-  'Other',
+  'Other(ex. References, Transcripts)',
 ]
 
 function GetInTouch() {
@@ -20,6 +20,7 @@ function GetInTouch() {
     firstName: '',
     lastName: '',
     email: '',
+    phone: '',
     subject: '',
     message: '',
   })
@@ -34,7 +35,7 @@ function GetInTouch() {
     // Build a mailto link as a simple no-backend solution
     const mailSubject = encodeURIComponent(form.subject || 'Website Inquiry')
     const mailBody = encodeURIComponent(
-      `Name: ${form.firstName} ${form.lastName}\nEmail: ${form.email}\nSubject: ${form.subject}\n\nMessage:\n${form.message}`
+      `Name: ${form.firstName} ${form.lastName}\nEmail: ${form.email}\nPhone: ${form.phone}\nSubject: ${form.subject}\n\nMessage:\n${form.message}`
     )
     window.location.href = `mailto:info@tinamarieharvey.com?subject=${mailSubject}&body=${mailBody}`
     setSubmitted(true)
@@ -58,6 +59,20 @@ function GetInTouch() {
 
           {/* Contact cards */}
           <div className="git-contact-cards">
+
+            <div className="git-contact-item">
+              <div className="git-contact-icon">
+                {/* phone icon */}
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </div>
+              <div>
+                <h4 className="git-contact-label">PHONE</h4>
+                <p className="git-contact-value">919-438-3030</p>
+              </div>
+            </div>
+
             <div className="git-contact-item">
               <div className="git-contact-icon">
                 {/* envelope icon */}
@@ -72,18 +87,7 @@ function GetInTouch() {
               </div>
             </div>
 
-            <div className="git-contact-item">
-              <div className="git-contact-icon">
-                {/* phone icon */}
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
-                </svg>
-              </div>
-              <div>
-                <h4 className="git-contact-label">PHONE</h4>
-                <p className="git-contact-value">919-438-3030</p>
-              </div>
-            </div>
+
 
             <div className="git-contact-item">
               <div className="git-contact-icon">
@@ -105,9 +109,7 @@ function GetInTouch() {
           <div className="git-quote-card">
             <span className="git-quote-mark">&ldquo;</span>
             <p className="git-quote-text">
-              Building stronger communities
-              through leadership, service,
-              and strategic solutions.
+              Providing strategic leadership, professional insight, and service-centered solutions that strengthen communities and organizations.
             </p>
             <p className="git-quote-author">&mdash; <em>Tina Marie Harvey</em></p>
           </div>
@@ -141,8 +143,21 @@ function GetInTouch() {
                   value={form.lastName}
                   onChange={handleChange}
                   required
-                />
+                /> 
               </div>
+            </div>
+
+              <div className="git-form-group">
+              <label htmlFor="phone">Phone Number</label>
+              <input
+                id="phone"
+                name="email"
+                type="email"
+                placeholder="Type your phone number"
+                value={form.phone}
+                onChange={handleChange}
+                required
+              />
             </div>
 
             <div className="git-form-group">
@@ -157,6 +172,7 @@ function GetInTouch() {
                 required
               />
             </div>
+
 
             <fieldset className="git-form-group git-subject-group">
               <legend>Subject</legend>
