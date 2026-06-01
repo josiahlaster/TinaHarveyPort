@@ -12,18 +12,20 @@ function Skills() {
         "Account Management",
         "Budgeting & Financial Administration",
         "Data Analysis & Reconciliation",
-        "Risk Management",
+        "Process Improvement",
         "Records Management",
-        "Process Improvement"
+        "Risk Management",
+        
+        
       ]
     },
     {
       title: "Legal, Policy & Case Management",
       icon: legalPolicyIcon,
       skills: [
+        "Case Management",
         "Legal Compliance",
         "Legal Research & Writing",
-        "Case Management",
         "Policy Development",
         "Regulatory Compliance",
         "Report Preparation"
@@ -32,13 +34,14 @@ function Skills() {
     {
       title: "Leadership, Communication & Training",
       icon: LeadComp,
-      skills: [
+      skills: [ 
+        "Conflict Resolution & Professional Judgment",     
+        "Cross-Functional Collaboration",
         "Employee-Facing Communication",
-        "Training Support",
         "Organizational Leadership",
         "Project Management",
-        "Cross-Functional Collaboration",
-        "Conflict Resolution & Professional Judgment"
+        "Training Support",
+
       ]
     }
   ]

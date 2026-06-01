@@ -126,7 +126,7 @@ function LeadershipPortfolio() {
   return (
     <main className="leadership-portfolio">
       <div className="leadership-header">
-        <h1 className="leadership-title">LEADERSHIP PORTFOLIO</h1>
+        <h1 className="leadership-title">EXECUTIVE PROFILES</h1>
         <div className="leadership-divider">
           <span className="leadership-divider-line" />
           <span className="leadership-divider-diamond">✦</span>
@@ -150,7 +150,7 @@ function LeadershipPortfolio() {
       </div>
 
       <div className="leadership-overview">
-        <h3 className="leadership-overview-title">Strategic Leadership Intelligence Guide</h3>
+        <h3 className="leadership-overview-title">LEADERSHIP INTELLIGENCE PORTFOLIO</h3>
         <div className="leadership-divider">
           <span className="leadership-divider-line" />
           <span className="leadership-divider-diamond">✦</span>
