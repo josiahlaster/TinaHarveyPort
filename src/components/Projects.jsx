@@ -103,7 +103,8 @@ function Projects() {
           <span className="projects-eyebrow">Portfolio</span>
           <h1 className="projects-heading">Featured Projects</h1>
           <p className="projects-subheading">
-           A curated selection of organizations and initiatives supported through strategic leadership, legal compliance, nonprofit administration, operational development, and community-centered service.
+           A curated selection of organizations and initiatives supported through strategic leadership, 
+           legal compliance, nonprofit administration, operational development, and community-centered service.
           </p>
         </div>
       </div>
