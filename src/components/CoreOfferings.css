@@ -126,15 +126,15 @@
   }
 
   .offering-card .card-icon {
-    width: 70px;
-    height: 70px;
+    width: 110px;
+    height: 110px;
     margin-bottom: 0;
   }
 
   .offering-card .card-icon img,
   .offering-card .card-icon svg {
-    width: 40px;
-    height: 40px;
+    width: 110px;
+    height: 110px;
   }
 
   .offering-card h3 {
