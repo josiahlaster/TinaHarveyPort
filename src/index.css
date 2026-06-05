@@ -6,7 +6,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: clip;
   width: 100%;
 }
 
@@ -14,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: clip;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -24,7 +22,6 @@ body {
 
 #root {
   width: 100%;
-  overflow-x: clip;
 }
 
 code {
