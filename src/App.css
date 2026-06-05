@@ -13,12 +13,12 @@ body {
   background-color: #ffffff;
   color: #333333;
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .App {
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: clip;
   width: 100%;
 }
 
