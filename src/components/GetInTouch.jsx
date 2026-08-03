@@ -151,8 +151,8 @@ function GetInTouch() {
               <label htmlFor="phone">Phone Number</label>
               <input
                 id="phone"
-                name="email"
-                type="email"
+                name="phone"
+                type="text"
                 placeholder="Type your phone number"
                 value={form.phone}
                 onChange={handleChange}
