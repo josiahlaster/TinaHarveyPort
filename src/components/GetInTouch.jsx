@@ -32,14 +32,17 @@ function GetInTouch() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Build a mailto link as a simple no-backend solution
+
     const mailSubject = encodeURIComponent(form.subject || 'Website Inquiry')
     const mailBody = encodeURIComponent(
       `Name: ${form.firstName} ${form.lastName}\nEmail: ${form.email}\nPhone: ${form.phone}\nSubject: ${form.subject}\n\nMessage:\n${form.message}`
     )
-    window.location.href = `mailto:info@tinamarieharvey.com?subject=${mailSubject}&body=${mailBody}`
+
+    const mailtoLink = `mailto:info@tinamarieharvey.com?subject=${mailSubject}&body=${mailBody}`
+
+    window.location.href = mailtoLink
+
     setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 4000)
   }
 
   return (
@@ -143,11 +146,11 @@ function GetInTouch() {
                   value={form.lastName}
                   onChange={handleChange}
                   required
-                /> 
+                />
               </div>
             </div>
 
-              <div className="git-form-group">
+            <div className="git-form-group">
               <label htmlFor="phone">Phone Number</label>
               <input
                 id="phone"
@@ -216,7 +219,9 @@ function GetInTouch() {
             </div>
 
             {submitted && (
-              <p className="git-success">Your email client has been opened. Thank you!</p>
+              <p className="git-success">
+                Your email app should open with a new message. If it does not, please email info@tinamarieharvey.com directly.
+              </p>
             )}
           </form>
         </div>
